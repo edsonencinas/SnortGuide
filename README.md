@@ -8,11 +8,12 @@ In this guide, we'll walk you through the steps to install and configure Snort o
 
 ### Prerequisites
 
-- A Linux server (Ubuntu 20.04/22.04 or similar)
+- Ubuntu server (Installed in the VM)
+- Another VM (Windows, or other Linux distros)
 - Root or sudo privileges
 - Basic understanding of Linux command line
 
-## Step 1: Update Your System
+## Step 1: Update Your Ubuntu System
 
 First, ensure your system packages are up-to-date:
 
@@ -22,12 +23,16 @@ sudo apt update && sudo apt upgrade -y
 
 ## Step 2: Install Dependencies
 
+Let's intall Snort by running the following command in your Ubuntu machine.
+
+```
+sudo apt-get install snort -y
+```
+
+
 Snort requires several dependencies:
 
-sudo apt install -y build-essential libpcap-dev libpcre3-dev libdumbnet-dev \
-zlib1g-dev liblzma-dev openssl libssl-dev libnghttp2-dev \
-libnet1-dev libyaml-dev libjemalloc-dev libhwloc-dev \
-libnetfilter-queue-dev libnetfilter-log-dev
+
 
 Additionally, install other tools:
 
