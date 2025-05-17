@@ -1,6 +1,6 @@
 # How to Install and Configure Snort
 
-###Introduction
+### Introduction
 
 In today’s cybersecurity landscape, intrusion detection and prevention are critical to safeguarding your network. Snort, an open-source network intrusion detection system (IDS) and intrusion prevention system (IPS), is widely used by security professionals worldwide. It offers real-time traffic analysis and packet logging, making it a powerful tool for monitoring and protecting your network.
 
