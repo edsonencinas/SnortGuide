@@ -1,4 +1,4 @@
-# How to Install and Configure Snort
+# How to Install and Configure Snort and Open-source IPS/IDS
 
 ### Introduction
 
