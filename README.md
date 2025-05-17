@@ -32,6 +32,10 @@ In this tutorial we will be using Snort as Host based IDS (HIDS), so we should t
 
 ![snort1](https://github.com/user-attachments/assets/c2a23e94-320c-40ec-a4a1-757783468cf6)
 
+During installation Snort will create these common directories.
+
+- **/etc/snort/**: Contains the main configuration files, such as `snort.conf` and related rule files.
+
 Snort requires several dependencies:
 
 
