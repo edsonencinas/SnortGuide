@@ -6,13 +6,13 @@ In today’s cybersecurity landscape, intrusion detection and prevention are cri
 
 In this guide, we'll walk you through the steps to install and configure Snort on a Linux system (Ubuntu/Debian-based). The process involves installing necessary dependencies, compiling Snort, and setting it up as both an IDS and IPS.
 
-Prerequisites
+### Prerequisites
 
-A Linux server (Ubuntu 20.04/22.04 or similar)
-Root or sudo privileges
-Basic understanding of Linux command line
+- A Linux server (Ubuntu 20.04/22.04 or similar)
+- Root or sudo privileges
+- Basic understanding of Linux command line
 
-Step 1: Update Your System
+## Step 1: Update Your System
 
 First, ensure your system packages are up-to-date:
 
@@ -20,7 +20,7 @@ First, ensure your system packages are up-to-date:
 sudo apt update && sudo apt upgrade -y
 ```
 
-Step 2: Install Dependencies
+## Step 2: Install Dependencies
 
 Snort requires several dependencies:
 
