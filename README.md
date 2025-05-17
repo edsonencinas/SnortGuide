@@ -1,4 +1,4 @@
-#How to Install and Configure Snort as an IDS and IPS
+# How to Install and Configure Snort as an IDS and IPS
 
 Introduction
 
