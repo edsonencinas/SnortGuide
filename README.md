@@ -46,6 +46,10 @@ The `snort.conf` file is the main configuration file for Snort. It plays a cruci
 ```
 sudo nano /etc/snort/snort.conf
 ```
+Find the **ipvar HOME_NET** and make sure it contains the IP address of our ubuntu machine. If it says `any`, replace it with the right one. To check the ip address of your machine, run `ip a` on the timerminal.
+
+![snort2](https://github.com/user-attachments/assets/e577572b-9066-42d2-b49c-7bb5f7918d4a)
+
 Snort requires several dependencies:
 
 
