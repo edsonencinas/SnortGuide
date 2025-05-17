@@ -21,14 +21,16 @@ First, ensure your system packages are up-to-date:
 sudo apt update && sudo apt upgrade -y
 ```
 
-## Step 2: Install Dependencies
+## Step 2: Install Snort
 
 Let's intall Snort by running the following command in your Ubuntu machine.
 
 ```
 sudo apt-get install snort -y
 ```
+In this tutorial we will be using Snort as Host based IDS (HIDS), so we should type the machine's IP address (check the VMs IP configuration).
 
+![snort1](https://github.com/user-attachments/assets/c2a23e94-320c-40ec-a4a1-757783468cf6)
 
 Snort requires several dependencies:
 
