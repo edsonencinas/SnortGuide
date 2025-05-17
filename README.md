@@ -74,7 +74,7 @@ alert icmp any any -> $HOME_NET any (msg:”ICMP Packet Detected”; sid:100001;
 ![snort4](https://github.com/user-attachments/assets/1f45a35d-6d61-4c7d-9494-4692314ec486)
 
 
-Conclusion
+###Conclusion
 
 Installing Snort as an IDS and IPS provides robust network security capabilities. While this guide covers the basics, deploying Snort effectively involves ongoing rule management, tuning, and integration with other security tools.
 
