@@ -50,7 +50,11 @@ Find the **ipvar HOME_NET** and make sure it contains the IP address of our ubun
 
 ![snort2](https://github.com/user-attachments/assets/e577572b-9066-42d2-b49c-7bb5f7918d4a)
 
+After editing, press **Ctrl + x** and press **Y** to save it. To make sure there's no error, let's test the configuration file by issuing the following command on the terminal. Supply which interface Snort will listen (In my case it's **eth0**).
 
+![snort3](https://github.com/user-attachments/assets/ec991008-9fe6-4292-8714-419636e01eee)
+
+At this point, Snort successfully validated the configuration file. 
 
 Conclusion
 
