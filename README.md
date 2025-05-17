@@ -70,7 +70,9 @@ alert icmp any any -> $HOME_NET any (msg:”ICMP Packet Detected”; sid:100001;
 - **any any -> $HOME_NET any**: Source and destination IP addresses.
 - **msg**: The alert message that will be logged.
 - **sid:100001**: Unique Snort rule ID.
-   
+
+![snort4](https://github.com/user-attachments/assets/1f45a35d-6d61-4c7d-9494-4692314ec486)
+
 
 Conclusion
 
