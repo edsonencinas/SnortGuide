@@ -73,8 +73,23 @@ alert icmp any any -> $HOME_NET any (msg:”ICMP Packet Detected”; sid:100001;
 
 ![snort4](https://github.com/user-attachments/assets/1f45a35d-6d61-4c7d-9494-4692314ec486)
 
+## Step 5: Testing the rule
 
-###Conclusion
+Let's run the following command so that we can see Snort live in action in the terminal.
+
+```
+sudo snort -q -l /var/log/snort -i eth0 -A console -c /etc/snort/snort.conf
+```
+Now, let's ping our ubuntu machine from the other machine.
+
+![snort5](https://github.com/user-attachments/assets/53a7b164-673b-4a56-9d95-be4df608ae90)
+
+Awesome! Snort successfully detected the ICMP packet.
+
+![snort6](https://github.com/user-attachments/assets/6d7545a8-fbbf-4e1d-b5a5-e8c49f5c2100)
+
+
+### Conclusion
 
 Installing Snort as an IDS and IPS provides robust network security capabilities. While this guide covers the basics, deploying Snort effectively involves ongoing rule management, tuning, and integration with other security tools.
 
