@@ -56,7 +56,7 @@ After editing, press **Ctrl + x** and press **Y** to save it. To make sure there
 
 At this point, Snort successfully validated the configuration file. 
 
-## Step 4: Write a local rule
+## Step 4: Write local rules
 
 To monitor ping scan or ICMP based attacks, let's write a rule that will generate alert whenever incoming ICMP packets are detected to our Ubuntu machine. Let's open `/etc/snort/rules/local.rules`  using nano and then add the following rule.
 
