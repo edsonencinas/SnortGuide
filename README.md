@@ -1,4 +1,4 @@
-# How to Install and Configure Snort, an Open-source IPS/IDS
+# How to Set Up Snort IDS/IPS on Ubuntu: Easy Installation Guide
 
 ### Introduction
 
