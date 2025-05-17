@@ -16,8 +16,10 @@ Step 1: Update Your System
 
 First, ensure your system packages are up-to-date:
 
-##
+```
 sudo apt update && sudo apt upgrade -y
+
+```
 
 Step 2: Install Dependencies
 
