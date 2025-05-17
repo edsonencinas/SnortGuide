@@ -56,6 +56,22 @@ After editing, press **Ctrl + x** and press **Y** to save it. To make sure there
 
 At this point, Snort successfully validated the configuration file. 
 
+## Step 4: Write a local rule
+
+To monitor ping scan or ICMP based attacks, let's write a rule that will generate alert whenever incoming ICMP packets are detected to our Ubuntu machine. Let's open `/etc/snort/rules/local.rules`  using nano and then add the following rule.
+
+```
+alert icmp any any -> $HOME_NET any (msg:”ICMP Packet Detected”; sid:100001;)
+```
+### Explanation 
+
+- **alert**: The action to take when the rule matches (generate an alert).
+- **icmp**: Protocol to match.
+- **any any -> $HOME_NET any**: Source and destination IP addresses.
+- **msg**: The alert message that will be logged.
+- **sid:100001**: Unique Snort rule ID.
+   
+
 Conclusion
 
 Installing Snort as an IDS and IPS provides robust network security capabilities. While this guide covers the basics, deploying Snort effectively involves ongoing rule management, tuning, and integration with other security tools.
